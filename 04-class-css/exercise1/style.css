@@ -1,4 +1,10 @@
+<style>
 
+#container {   position:relative;
+    background-color:lightgray; 
+    margin:20px; height:300px; }
+
+</style>
 
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
