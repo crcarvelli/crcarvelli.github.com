@@ -73,34 +73,37 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-#site-header {
-  margin:0 auto;
-  width:960px;
+
+div.logo {
+position:relative;
+width:20px;
+left:175px;
+top:30px;
 }
-  
-  section#content {
-      margin:30px;
-      width:750px;
-      }
   
 ul {
 position:relative;
-width:750px;
+left:30px;
+top:12px;
+width:800px;
 list-style-type:none;
 margin:30px 0px 30px 0px;
 padding:0;
 overflow:hidden;
-}
-
-li {
-float:left;
-border:40px;
 border-top-style:solid;
 border-top-color:black;
 border-top-width:3px;
 border-bottom-style:solid;
 border-bottom-color:black;
 border-bottom-width:3px;
+font-size:21px;
+}
+
+li {
+float:left;
+width:75px;
+font-family:times new roman;
+font-weight:bold;
 }
 
 a:link,a:visited {
@@ -109,7 +112,7 @@ width:50px;
 font-weight:regular;
 color:black;
 text-align:center;
-padding:4px;
+padding:13px;
 text-decoration:none;
 text-transform:uppercase;
 }
@@ -118,21 +121,30 @@ text-transform:uppercase;
 float:left;
 width:350px;
 height:90px;
-margin:5px;
+margin-left:30px;
+}
+
+h1 {
+font-family:times new roman;
+font-weight:bold;
+}
+
+p {
+font-family:times new roman;
 }
 
 .cats {
 float:left;
 width:350px;
 height:90px;
-margin:5px;
+margin-left:20px;
 }
 
 footer#left {
 clear:both;
 margin-top:400px;
 margin-left:30px;
-margin-right:210px;
+margin-right:680px;
 padding-top:20px;
 border-top-style:solid;
 border-top-width:3px;
@@ -144,8 +156,4 @@ clear:both;
 margin-top:-17px;
 margin-left:580px;
 font-size:12px;
-}
-
-div {
-color:red;
 }
