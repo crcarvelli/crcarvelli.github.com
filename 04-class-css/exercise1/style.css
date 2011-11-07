@@ -72,3 +72,38 @@ h2 {font-size:12px;
 	
 p {font-size:16px;
 	}
+
+body {
+position:relative:
+width:600px;
+}
+
+img#images/dog.jpg {
+float:left
+top:200px;
+width:300px;
+}
+
+img#images/cat.jpg {
+float:left;
+top:200px;
+width:300px;
+}
+
+ul {
+position:relative;
+left:30px;
+top:12px;
+width:800px;
+list-style-type:none;
+margin:30px 0px 30px 0px;
+padding:0;
+overflow:hidden;
+border-top-style:solid;
+border-top-color:black;
+border-top-width:3px;
+border-bottom-style:solid;
+border-bottom-color:black;
+border-bottom-width:3px;
+font-size:21px;
+}
