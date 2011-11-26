@@ -85,9 +85,7 @@ text-decoration:none;
 text-transform:uppercase;
 }
 
-nav
-
-p {position:relative
+article {position:relative
    left:30px;
 top:12px;
 width:800px;
@@ -96,3 +94,4 @@ padding:0;
 overflow:hidden;
 font-size:12px;
 }
+

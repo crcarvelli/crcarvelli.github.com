@@ -73,12 +73,12 @@ h2 {font-size:12px;
 p {font-size:16px;
 	}
 
-body {
+article {
 position:relative:
 width:600px;
 }
 
-img#images/dog.jpg {
+img#dog.jpg {
 float:left
 top:200px;
 width:300px;
