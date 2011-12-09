@@ -74,6 +74,11 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+section#content {
+  margin:0 auto;
+  width:960px;
+}
+
 div.logo {
 position:relative;
 width:20px;
@@ -95,7 +100,7 @@ border-top-color:black;
 border-top-width:3px;
 border-bottom-style:solid;
 border-bottom-color:black;
-border-bottom-width:3px;
+border-bottom-width:3px;00
 font-size:21px;
 }
 
