@@ -78,11 +78,11 @@ body { margin:0 auto;
 		background-color:#000;
 		}
 		
-#drawing {
+#puzzle {
 
         position:fixed;
-        top:90px;
-        left:50px; 
+        top:100px;
+        left:100px; 
 
         /* Preserve aspet ratio */
         min-width:50%;
@@ -106,7 +106,7 @@ height:400px;
 		header h1 {
 		position:relative;
 		top:60px;
-		left:600px;
+		left:500px;
 		font-size:60px;
 		background-color:transparent;
 		color:#FFF;
@@ -154,18 +154,14 @@ opacity:0.4;
 filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
-section ul {
+section {
 	position:relative;
-	width:550px;
-	height:300px;
-	left:570px;
+	width:620px;
+	height:370px;
+	left:500px;
 	top:-165px;
 	background-color:#FFF;
 	opacity:0.9;
-	list-style-type:none;
-	line-height:30px;
-	font-size:25px;
-	padding-top:40px;
 	}
 		
 section li {
@@ -175,7 +171,7 @@ section li {
 	article {
 	position:relative;
 	width:375px;
-	line-height:22px;
+	line-height:40px;
 	}
 
 .background {
