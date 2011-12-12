@@ -75,62 +75,52 @@ html[xmlns] .clearfix { display: block; }
 
 body { margin:0 auto;
 		width:960px;
-		background-color:#000;
 		}
-		
-#corinne {
 
-        position:fixed;
-        top:100px;
-        left:100px; 
-
-        /* Preserve aspet ratio */
-        min-width:60%;
-        min-height:60%;
+html {
+        background: url(images/new_hampshire.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 header {
 	position:relative;
 	background-color:transparent;
 width:960px;
-height:400px;
+height:460px;
+opacity:0.8;
 	}
 		
 		header img {
 		position:relative;
-		top:30px;
-		left:-200px;
-		box-shadow: 3px 3px 5px #da0967;
-		}
+		top:100px;
+		left:275px;
+		box-shadow: 10px 10px 5px #888;
+		}		
 		
-		header h1 {
-		position:relative;
-		top:60px;
-		left:520px;
-		font-size:60px;
-		background-color:transparent;
-		color:#FFF;
-		}
-		
-ul {position:relative;
-top:-106px;
+nav ul {position:relative;
+top:220px;
 width:2000px;
-left:30px;
+left:-330px;
 list-style-type:none;
-padding:3px;
+padding:10px;
+padding-left:320px;
 overflow:hidden;
 background-color:#da0967;
-opacity:0.8;
+opacity:0.95;
+box-shadow: 3px 3px 5px #888;
 }
 	
-li {
+nav li {
 float:left;
 display:inline-block;
 font-family:arial;
-font-weight:regular;
+font-weight:bold;
 text-align:center;
-font-size:20px;
-padding-left:100px;
+font-size:25px;
+padding-left:130px;
 padding-right:60px;
 }
 
@@ -154,38 +144,11 @@ opacity:0.4;
 filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
-section {
-	position:relative;
-	width:620px;
-	height:370px;
-	left:500px;
-	top:-165px;
-	background-color:#FFF;
-	opacity:0.65;
-	
-	}
-	
-	article {
-	position:relative;
-	width:375px;
-	line-height:22px;
-	}
-
-.background {
-float:left;
-width:560px;
-padding:30px;
-}
-
-p {
-font-family:didot;
-font-size:20px;
-}
 
 footer ul {
 position:relative;
-top:-700px;
-left:1000px;
+top:-145px;
+left:550px;
 	background-color:transparent;
 
 	}

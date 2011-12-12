@@ -77,39 +77,60 @@ body { margin:0 auto;
 		width:960px;
 		background-color:#000;
 		}
+		
+#drawing {
+
+        position:fixed;
+        top:90px;
+        left:50px; 
+
+        /* Preserve aspet ratio */
+        min-width:50%;
+        min-height:50%;
+}
 
 header {
 	position:relative;
-	background-color:#FFF;
+	background-color:transparent;
 width:960px;
-height:460px;
+height:400px;
 	}
 		
 		header img {
 		position:relative;
 		top:30px;
-		left:30px;
+		left:-200px;
+		box-shadow: 3px 3px 5px #da0967;
 		}
 		
-ul {position:relative;
-top:220px;
+		header h1 {
+		position:relative;
+		top:60px;
+		left:600px;
+		font-size:60px;
+		background-color:transparent;
+		color:#FFF;
+		}
+		
+nav ul {position:relative;
+top:-106px;
 width:2000px;
-left:-330px;
+left:30px;
 list-style-type:none;
-padding:10px;
-padding-left:320px;
+padding:3px;
 overflow:hidden;
 background-color:#da0967;
+opacity:0.8;
 }
 	
-li {
+nav li {
 float:left;
 display:inline-block;
 font-family:arial;
-font-weight:bold;
+font-weight:regular;
 text-align:center;
-font-size:25px;
-padding-left:130px;
+font-size:20px;
+padding-left:100px;
 padding-right:60px;
 }
 
@@ -122,63 +143,48 @@ text-align:center;
 margin:3px 0;
 text-decoration:none;
 }
-
-  
-  div.float1 {
-  float:left;
-  padding-left:175px;
-  }
-  
-   div.float2 {
-  float:left;
-  padding-left:100px;
-  }
-  
-   div.float3 {
-  float:left;
-  padding-left:100px;
-  }
-
-   div.float4 {
-  float:left;
-  padding-left:100px;
-  }
-
-   div.container {
-  background-color: #FFF;
-  }
-  
-  div.spacer {
-  clear:both;
-  }
 	
 {
 opacity:1.0;
 filter:alpha(opacity=100); /* For IE8 and earlier */
 }
-li:hover
+nav li:hover
 {
 opacity:0.4;
 filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
-
-	section {
-  position:relative;
-  width:1500px;
-  left:-300px;
-  right:0px;
-  top:40px;
-  padding-left:40px;
-  }
-
-footer ul {
-	left:766px;
-	top:-420px;
-	background-color:transparent;
-
+section ul {
+	position:relative;
+	width:550px;
+	height:300px;
+	left:570px;
+	top:-165px;
+	background-color:#FFF;
+	opacity:0.9;
+	list-style-type:none;
+	line-height:30px;
+	font-size:25px;
+	padding-top:40px;
+	}
+		
+section li {
+	padding:5px;
 	}
 	
-	footer li {
-	padding:5px;
+	article {
+	position:relative;
+	width:375px;
+	line-height:22px;
+	}
+
+.background {
+float:left;
+width:500px;
+padding:30px;
+}
+
+p {
+font-family:didot;
+font-size:20px;
 	}
