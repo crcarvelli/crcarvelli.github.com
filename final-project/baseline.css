@@ -147,8 +147,9 @@ filter:alpha(opacity=40); /* For IE8 and earlier */
 
 footer ul {
 position:relative;
+width:200px;
 top:-260px;
-left:500px;
+left:800px;
 	background-color:transparent;
 
 	}
