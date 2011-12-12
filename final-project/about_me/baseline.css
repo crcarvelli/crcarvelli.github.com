@@ -75,14 +75,21 @@ html[xmlns] .clearfix { display: block; }
 
 body { margin:0 auto;
 		width:960px;
-		background-color:#000;
 		}
+		
+html {
+        background: url(images/corinne2.jpg) no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
 
 header {
 	position:relative;
-	background-color:#FFF;
+	background-color:transparent;
 width:960px;
-height:460px;
+height:400px;
 	}
 		
 		header img {
@@ -91,12 +98,21 @@ height:460px;
 		left:30px;
 		}
 		
+		header h1 {
+		position:relative;
+		top:150px;
+		left:-175px;
+		right:1000px;
+		font-size:60px;
+		background-color:white;
+		}
+		
 ul {position:relative;
-top:220px;
+top:20px;
 width:2000px;
 left:-330px;
 list-style-type:none;
-padding:10px;
+padding:2px;
 padding-left:320px;
 overflow:hidden;
 background-color:#da0967;
@@ -108,7 +124,7 @@ display:inline-block;
 font-family:arial;
 font-weight:bold;
 text-align:center;
-font-size:25px;
+font-size:20px;
 padding-left:130px;
 padding-right:60px;
 }
@@ -122,35 +138,6 @@ text-align:center;
 margin:3px 0;
 text-decoration:none;
 }
-
-  
-  div.float1 {
-  float:left;
-  padding-left:175px;
-  }
-  
-   div.float2 {
-  float:left;
-  padding-left:100px;
-  }
-  
-   div.float3 {
-  float:left;
-  padding-left:100px;
-  }
-
-   div.float4 {
-  float:left;
-  padding-left:100px;
-  }
-
-   div.container {
-  background-color: #FFF;
-  }
-  
-  div.spacer {
-  clear:both;
-  }
 	
 {
 opacity:1.0;
@@ -162,19 +149,40 @@ opacity:0.4;
 filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
+section {
+	position:relative;
+	width:1200px;
+	height:700px;
+	left:300px;
+	top:-60px;
+	background-color:#FFF;
+	}
+	
+	article {
+	position:relative;
+	width:400px;
+	}
 
-	section {
-  position:relative;
-  width:1500px;
-  left:-300px;
-  right:0px;
-  top:40px;
-  padding-left:40px;
-  }
+.background {
+float:left;
+width:350px;
+padding-top:10px;
+}
+
+h1 {
+font-family:arial;
+font-weight:bold;
+}
+
+p {
+padding-top:40px;
+font-family:didot;
+}
+
 
 footer ul {
-	left:766px;
-	top:-420px;
+	left:700px;
+	top:-900px;
 	background-color:transparent;
 
 	}
